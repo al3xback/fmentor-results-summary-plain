@@ -62,6 +62,12 @@ body {
 	line-height: 1.3125;
 }
 
+@media (min-width: 48em) {
+	body {
+		font-size: 1.8rem;
+	}
+}
+
 /* ========================= */
 /* General Components */
 /* ========================= */
@@ -324,6 +330,14 @@ main > .container {
 	.card__data-list {
 		gap: 1.6rem;
 	}
+
+	.card__data-img {
+		width: 2.2rem;
+	}
+
+	.card__data-title {
+		font-size: 1.8rem;
+	}
 }
 
 /* ========================= */
@@ -348,18 +362,4 @@ footer {
 footer .container,
 footer p {
 	flex: auto;
-}
-
-@media (min-width: 48em) {
-	body {
-		font-size: 1.8rem;
-	}
-
-	.card__data-img {
-		width: 2.2rem;
-	}
-
-	.card__data-title {
-		font-size: 1.8rem;
-	}
 }
