@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Frontend Mentor | Results Summary Component | Plain Mode</title>
+
+		<!-- Core Meta Data -->
+		<meta
+			name="description"
+			content="Frontend Mentor - Results summary component solution." />
+		<meta
+			name="keywords"
+			content="Frontend Mentor, Results summary component" />
+
+		<!-- Behavioral Meta Data -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="favicon.png" />
+
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" />
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<header>
+			<h1 class="sr-only">Results summary component</h1>
+		</header>
+
+		<main>
+			<div class="container">
+				<div class="card">
+					<div class="card__result">
+						<h2 class="card__title">Your Result</h2>
+						<div class="card__chart">
+							<span class="card__chart-score extra-bold">76</span>
+							<span>of 100</span>
+						</div>
+						<div class="card__desc">
+							<h3 class="card__desc-title">Great</h3>
+							<p class="card__desc-content">
+								You scored higher than 65% of the people who
+								have taken these tests.
+							</p>
+						</div>
+					</div>
+					<div class="card__summary">
+						<h2 class="card__title">Summary</h2>
+						<ul class="card__data-list">
+							<li
+								class="card__data-item card__data-item--reaction">
+								<img
+									class="card__data-img"
+									width="20"
+									height="20"
+									src="./images/icons/reaction.svg"
+									alt="" />
+								<h3 class="card__data-title">Reaction</h3>
+								<p class="card__data-score">
+									<span>80</span><span>/ 100</span>
+								</p>
+							</li>
+							<li class="card__data-item card__data-item--memory">
+								<img
+									class="card__data-img"
+									width="20"
+									height="20"
+									src="./images/icons/memory.svg"
+									alt="" />
+								<h3 class="card__data-title">Memory</h3>
+								<p class="card__data-score">
+									<span>92</span><span>/ 100</span>
+								</p>
+							</li>
+							<li class="card__data-item card__data-item--verbal">
+								<img
+									class="card__data-img"
+									width="20"
+									height="20"
+									src="./images/icons/verbal.svg"
+									alt="" />
+								<h3 class="card__data-title">Verbal</h3>
+								<p class="card__data-score">
+									<span>61</span>
+									<span>/ 100</span>
+								</p>
+							</li>
+							<li class="card__data-item card__data-item--visual">
+								<img
+									class="card__data-img"
+									width="20"
+									height="20"
+									src="./images/icons/visual.svg"
+									alt="" />
+								<h3 class="card__data-title">Visual</h3>
+								<p class="card__data-score">
+									<span>72</span>
+									<span>/ 100</span>
+								</p>
+							</li>
+						</ul>
+						<button
+							type="button"
+							class="btn btn--primary btn--full">
+							Continue
+						</button>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="container">
+				<p>
+					Challenge by
+					<a
+						href="https://www.frontendmentor.io?ref=challenge"
+						class="btn btn--link"
+						rel="noopener"
+						target="_blank"
+						>Frontend Mentor</a
+					>. Coded by
+					<a
+						href="https://github.com/al3xback"
+						class="btn btn--link"
+						rel="noopener"
+						target="_blank"
+						>al3xback</a
+					>.
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>
