@@ -1,22 +1,8 @@
 {
 	"name": "fmentor-results-summary-plain",
+	"private": true,
 	"version": "1.0.0",
-	"description": "results summary component using plain mode",
-	"main": "index.js",
-	"scripts": {
-		"lint": "prettier --write ."
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/al3xback/fmentor-results-summary-plain.git"
-	},
+	"type": "module",
 	"author": "alex <al3xback@gmail.com>",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/al3xback/fmentor-results-summary-plain/issues"
-	},
-	"homepage": "https://github.com/al3xback/fmentor-results-summary-plain#readme",
-	"devDependencies": {
-		"prettier": "^2.8.8"
-	}
+	"license": "ISC"
 }
